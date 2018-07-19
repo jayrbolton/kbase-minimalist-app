@@ -19,7 +19,7 @@ elif [ "${1}" = "test" ] ; then
 # Job Mode:
 # KBase uses the word "async" for this command, which makes no sense. This is for a one-off job.
 elif [ "${1}" = "async" ] ; then
-  echo "Running in async mode"
+  echo "Running a one-off job..."
   python /kb/module/main.py /kb/module/work/input.json /kb/module/work/output.json
   # sh ./run_async.sh
 
