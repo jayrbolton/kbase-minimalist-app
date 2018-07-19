@@ -1,6 +1,5 @@
-FROM alpine:3.6
+FROM python:3.7-stretch
 
-RUN make all
 WORKDIR /kb/module
 COPY . /kb/module
 RUN mkdir -p /kb/module/work
