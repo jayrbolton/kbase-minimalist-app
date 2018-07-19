@@ -1,0 +1,17 @@
+{
+  "name": "Echo a string message back to you.",
+  "short_description": "Echo a string back to you.",
+  "long_description" : "Echo a string back to you.",
+  "authors": [],
+  "tags" : {
+    "categories" : [],
+    "input": {
+      "file_types": [],
+      "kb_types": []
+    },
+    "output": {
+      "file_types": [],
+      "kb_types": []
+    }
+  }
+}

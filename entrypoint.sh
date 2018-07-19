@@ -2,7 +2,6 @@
 
 # Docker container entry point script
 # When you run docker run my-app xyz, then this script will get run
-# Must have KB_AUTH_TOKEN set in the environment
 
 # Persistent server mode (aka "dynamic service"):
 # This is run when there are no arguments
@@ -21,7 +20,6 @@ elif [ "${1}" = "test" ] ; then
 # KBase uses the word "async" for this command, which makes no sense. This is for a one-off job.
 elif [ "${1}" = "async" ] ; then
   echo "Running in async mode"
-  echo "nothing to do."
   python /kb/module/main.py /kb/module/work/input.json /kb/module/work/output.json
   # sh ./run_async.sh
 
