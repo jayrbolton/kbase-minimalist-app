@@ -1,6 +1,9 @@
+_Essential configs_
 
-In the docker container, a directory is created called `/kb/module`
+- `Dockerfile` 
+- `compile_report.json`
+- `entrypoint.sh`
+- `kbase.yml`
 
-The files in `/config` get copied and compiled into `/build`
-
-Everything in `/build` is placed in `/kb/module` in the Docker container
+_Module code_
+- `main.py` -- takes /kb/module/work/input.json and produces /kb/module/work/output.json
