@@ -1,6 +1,13 @@
 {
   "function_places": {},
-  "functions": {},
+  "functions": {
+    "echo_message": {
+      "input": [],
+      "name": "",
+      "output": [],
+      "place": {}
+    }
+  },
   "impl_file_path": "",
   "module_name": "jayrboltonMinimalism",
   "sdk_git_commit": "0",
