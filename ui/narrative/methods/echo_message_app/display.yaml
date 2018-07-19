@@ -1,0 +1,38 @@
+#
+# define display information
+#
+name: Echo test
+
+tooltip: |
+  Test method -- echo text back to you.
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar methods that might be useful to the user
+#
+suggestions:
+    apps:
+        related: []
+        next: []
+    methods:
+        related: []
+        next: []
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    message :
+        ui-name : |
+            Test message to echo back
+        short-hint : |
+            Test message to echo back
+        long-hint  : |
+            Test message to echo back
+
+description : |
+    A test module that repeats your message back to you in a report summary.
+
