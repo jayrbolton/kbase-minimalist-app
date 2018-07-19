@@ -38,9 +38,7 @@ elif [ "${1}" = "bash" ] ; then
 # This is for registering the module on the KBase catalog
 elif [ "${1}" = "report" ] ; then
   echo "Generating report..."
-  echo "nothing to do."
-	export KB_SDK_COMPILE_REPORT_FILE="/kb/module/work/compile_report.json"
-	ls /kb/module/work
+  cp /kb/module/compile_report.json /kb/module/work/compile_report.json
   # make compile
 
 # Unknown command.
