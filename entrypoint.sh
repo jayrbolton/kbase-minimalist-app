@@ -39,6 +39,8 @@ elif [ "${1}" = "bash" ] ; then
 elif [ "${1}" = "report" ] ; then
   echo "Generating report..."
   echo "nothing to do."
+	export KB_SDK_COMPILE_REPORT_FILE="/kb/module/work/compile_report.json"
+	ls /kb/module/work
   # make compile
 
 # Unknown command.
