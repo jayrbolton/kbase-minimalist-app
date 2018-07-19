@@ -11,6 +11,7 @@ if __name__ == '__main__':
         input_json = json.load(input_file)
     method = input_json['method']
     output_data = {
+        "id": input_json.get('id'),
         "result": {
             "message": input_json["params"]["message"]
         },
