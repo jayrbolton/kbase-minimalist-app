@@ -1,6 +1,14 @@
 {
-  "function_places": {"echo_message": {}},
-  "functions": {},
+  "function_places": {"echo_message": {"end_line": 0, "start_line": 0}},
+  "functions": {
+    "echo_message": {
+      "comment": "Echo any string back to you",
+      "input": [{"comment": "string", "type": "string"}],
+      "name": "echo_message",
+      "output": [{"comment": "", "type": "string"}],
+      "place": {"end_line": 0, "start_line": 0}
+    }
+  },
   "impl_file_path": "",
   "module_name": "jayrboltonMinimalism",
   "sdk_git_commit": "0",
