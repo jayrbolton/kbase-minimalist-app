@@ -1,0 +1,23 @@
+{
+  "function_places": {"run": {"end_line": 0, "start_line": 0}},
+  "functions": {
+    "run": {
+      "comment": "Run the app method",
+      "input": [{
+        "comment": "integer",
+        "type": "string"
+      }],
+      "name": "run",
+      "output": [{
+        "comment": "",
+        "type": "string"
+      }],
+      "place": {"end_line": 0, "start_line": 0}
+    }
+  },
+  "impl_file_path": "hello-world.txt",
+  "module_name": "jayrboltonMinimalism",
+  "sdk_git_commit": "0",
+  "sdk_version": "0",
+  "spec_files": [{"content": "", "is_main": 1}]
+}
