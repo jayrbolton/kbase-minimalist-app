@@ -1,10 +1,10 @@
 {
-  "function_places": {"run": {"end_line": 0, "start_line": 0}},
+  "function_places": {"echo_message": {"end_line": 0, "start_line": 0}},
   "functions": {
-    "run": {
-      "comment": "Run the app method",
+    "echo_message": {
+      "comment": "Echo any string back to you",
       "input": [{
-        "comment": "integer",
+        "comment": "string",
         "type": "string"
       }],
       "name": "run",
